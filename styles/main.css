@@ -133,10 +133,6 @@ header {
     background-size: 100% 100%;
 }
 
-/* .hiw__separator {
-    min-width: 20px;
-} */
-
 .step1 {
     background-image: url(../images/Step\ 1.png);
 }
@@ -347,10 +343,3 @@ footer {
     color: #CCCCCC;
     margin-bottom: 7px;
 }
-
-
-
-/* ---------------------------------------- */
-/* -------------- Media 768 --------------- */
-/* ---------------------------------------- */
-
