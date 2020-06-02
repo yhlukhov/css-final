@@ -1,0 +1,356 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body {
+    background-color: #F2F2F2;
+}
+
+.body__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* ------- Header ------- */
+
+header {
+    background-image: url(../images/Background.png);
+    background-size: cover;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 700px;
+}
+
+.promo__topcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.promo__logo {
+    width: 45%;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.promo__menu {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo__menu_login {
+    font-family: montserrat;
+    font-size: 14px;
+}
+
+.promo__menu_signup {
+    width: 86px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 19px;
+}
+
+.promo__data {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 153px auto 0;
+}
+
+.promo__data_title {
+    font-family: montserrat;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.promo__data_desc {
+    font-family: roboto-light;
+    font-size: 24px;
+    margin-top: 28px;
+    color: #F7F3F2;
+}
+
+.promo__data_button {
+    width: 225px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #FF4E50;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+/* ---------- HIW ---------- */
+
+.hiw {
+    margin: 95px auto 0;
+    max-width: 960px;
+}
+
+.section__title {
+    font-family: montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444444;
+    text-align: center;
+}
+
+.hiw__content {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiw__content_item {
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-size: 100% 100%;
+}
+
+/* .hiw__separator {
+    min-width: 20px;
+} */
+
+.step1 {
+    background-image: url(../images/Step\ 1.png);
+}
+.step2 {
+    background-image: url(../images/Step\ 2.png);
+}
+.step3 {
+    background-image: url(../images/Step\ 3.png);
+}
+
+/* -------- Meet a Partner -------- */
+
+.partner {
+    margin: 89px auto 0;
+    width: 941px;
+}
+
+.partner__title {
+    font-family: montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.partner__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partner__list_item {
+    width: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner__name {
+    margin-top: 17px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.partner__about {
+    margin-top: 14px;
+    font-family: roboto-light;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.partner__button {
+    display: block;
+    margin: 36px auto 0;
+    width: 176px;
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FF4E50;
+    border: 2px solid #FF4E50;
+    border-radius: 20px;
+}
+
+/* ------- Holiday Ideas -------- */
+
+.ideas {
+    margin: 88px auto 0;
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ideas__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.ideas__content_big {
+    width: 620px;
+    height: 310px;
+    margin-bottom: 20px;
+}
+
+.ideas__content_small {
+    width: 300px;
+    height: 310px;
+    margin-bottom: 20px;
+}
+
+/* ------ Interests -------- */
+
+.interests {
+    margin: 82px auto 0;
+    width: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interests__desc {
+    margin-top: 43px;
+    font-family: roboto-light;
+    font-size: 18;
+    color: #666666;
+}
+
+.interests__search {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interests__search_box {
+    width: 299px;
+    height: 40px;
+    font-family: roboto-light;
+    font-size: 14px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+}
+
+.interests__search_button {
+    width: 172px;
+    height: 40px;
+    background-color: #FF4E50;
+    color: white;
+    border-radius: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 2px solid #FF4E50;
+    margin-top: 100px;
+}
+
+/* -------- Footer -------- */
+
+.footer {
+    margin: 40px auto 0;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-family: montserrat;
+    font-size: 16px;
+    color: #FF4E50;
+}
+
+.footer__menu {
+    margin-left: 122px;
+    margin-right: 3px;
+    margin-bottom: 36px;
+    width: 114px;
+}
+
+.footer__menu_title {
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.footer_nav {
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu_item {
+    font-family: roboto-light;
+    font-size: 14px;
+    color: #999999;
+    text-decoration: none;
+    line-height: 26px;
+}
+
+.footer__logo {
+    margin-left: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__logo_top {
+    font-family: montserrat;
+    font-size: 10px;
+    font-weight: bold;
+    color: #CCCCCC;
+    margin-bottom: 7px;
+}
+
+
+
+/* ---------------------------------------- */
+/* -------------- Media 768 --------------- */
+/* ---------------------------------------- */
+
